@@ -6,11 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "fastfoodgo"
 version = "0.1.0"
 description = "FastFoodGo core business logic"
-authors = [{name = "Emma"}]
-dependencies = []
-
-[project.optional-dependencies]
-dev = ["pytest"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
