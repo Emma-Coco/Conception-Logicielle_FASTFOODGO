@@ -1,0 +1,4 @@
+- hosts: all
+  [cite_start]become: yes [cite: 27]
+  roles:
+    - [cite_start]nginx [cite: 17]
